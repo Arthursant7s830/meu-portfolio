@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+     overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    background-color: rgb(227, 235, 233);
+
+}
+
+header {
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    height: 350px; */
+}
+
+header h1 {
+    /* color: white;
+    padding: 30px;
+    text-align: center;
+    font-size: 48px; */
+
+}
+
+/* CELULARES E TABLETS */
+@media (min-width: 600px) and (max-width: 768px) {
+
+    header {
+        display: flex;
+        height: 100vh;
+        align-items: center ;
+        justify-content: center;
+        background-color: rgb(227, 235, 233);
+        text-align: left;
+
+        /* clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%); */
+    }
+
+    .tittle h1 {
+        font-size: 30px;
+        margin-bottom: 0.5rem;
+        line-height: 1.3;
+        white-space: nowrap;
+    }
+
+    .tittle span {
+        color: rgb(0, 200, 180);
+        
+    }
+
+    .tittle h2 {
+        font-size: 2rem;
+        white-space: nowrap;
+    }
+
+
+    .saiba-mais {
+        display: inline-block;
+        padding: 10px 25px;
+    }
+}
+
+
+
+
+
