@@ -37,7 +37,7 @@ header h1 {
 }
 
 /* CELULARES E TABLETS */
-@media (min-width: 600px) and (max-width: 768px) {
+@media (min-width: 460px) and (max-width: 768px) {
 
     header {
         display: flex;
