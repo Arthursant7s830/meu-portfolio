@@ -88,6 +88,28 @@ header h1 {
     }
 
     .sobre-mim {
-       background-image: linear-gradient(rgb(0, 200, 180) , rgb(0, 199, 156));
+        background-image: linear-gradient(rgb(0, 200, 180), rgb(0, 199, 156));
+        padding: 20px;
+        color: #ffff;
+    }
+
+    .sobre-mim h2 {
+        margin: 40px 0px 40px 0px;
+        text-align: center;
+    }
+
+    .sobre-mim img {
+        display: block;
+        margin: 0 auto;
+        width: 250px;
+        height: 265px;
+        border-radius: 4px;
+        border: none;
+    }
+
+    .sobre-mim p {
+        margin: 40px 0px;
+        font-size: 1.2rem;
+        text-align: justify;
     }
 }
