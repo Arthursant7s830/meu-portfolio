@@ -65,34 +65,34 @@ body {
 }
 
 #btn-inicio {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background-color: var(--cor-secundaria);
-  color: var(--cor-branca);
-  border: none;
-  border-radius: 50%;
-  width: 45px;
-  height: 45px;
-  font-size: 1.5rem;
-  cursor: pointer;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-  transition: all 0.3s ease;
-  opacity: 0;
-  visibility: hidden;
-  z-index: 1000;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: var(--cor-secundaria);
+    color: var(--cor-branca);
+    border: none;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
 }
 
 /* Efeito quando o botão aparece */
 #btn-inicio.mostrar {
-  opacity: 1;
-  visibility: visible;
+    opacity: 1;
+    visibility: visible;
 }
 
 /* Hover */
 #btn-inicio:hover {
-  transform: scale(1.1);
-  background-color: var(--cor-primaria);
+    transform: scale(1.1);
+    background-color: var(--cor-primaria);
 }
 
 
@@ -174,9 +174,9 @@ body {
     }
 
     .saiba-mais:hover {
-        background-color: var(--cor-secundaria);
+        background-image: linear-gradient(135deg, var(--cor-primaria), var(--cor-secundaria));
         color: var(--cor-branca);
-        box-shadow: 0 4px 5px rgba(0, 205, 171, 0.178);
+        box-shadow: 0 2px 2px rgba(0, 205, 171, 0.178);
 
     }
 
@@ -194,7 +194,6 @@ body {
         font-size: 16px;
         text-align: justify;
         margin: 15px;
-       
+
     }
 }
-
